@@ -1,0 +1,10 @@
+1. Reverse a string using stack
+2. Linked List -- find middle element
+3. Array -- Get peak element -- 4 10 20 40 15
+ arr[]: { 10 20 40 15 }
+ Peak element is : 40 found at index 2
+4. LinkedList -- if linked list is palindrome in java -- 1212 2121
+5. get missing number in an array == int[] arr1={7,5,6,1,4,2}; Missing numner : 3
+6. Buy Sell to Maximize Profit int arr[]={14, 12, 70, 15, 99, 65, 21, 90};
+Max profit can be gain by buying at 1th day(0 based indexing) and sell at 4th day.
+Max profit = 99-12 =87

@@ -1,0 +1,1 @@
+print(str(input("Enter String\n"))[::-1])
