@@ -42,7 +42,7 @@ public class GlobalConfiguration {
     public static void store() {
         try {
             Yaml yml = new Yaml();
-            String path = "/home/abhishek/IdeaProjects/MultiAssign5/src/main/samap.yml";
+            String path = "/samap.yml";
             sources = yml.load(new FileInputStream(new File(path)));
             System.out.println("Records: ");
             System.out.println(sources);
