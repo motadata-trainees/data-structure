@@ -16,7 +16,7 @@ public class GlobalConfig {
     public static void store() throws FileNotFoundException {
         try {
             Yaml yml = new Yaml();
-            String path = "/home/abhishek/IdeaProjects/MultiAssign2/samap.yml";
+            String path = "/samap.yml";
             configuration = yml.load(new FileInputStream(new File(path)));
             System.out.println("Records: ");
             System.out.println(configuration);
